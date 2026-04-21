@@ -1,0 +1,32 @@
+paths:
+  dataset_root: "E:/Dataset/TripleN"
+  matlab_source_root: "D:/Analysis/Script"
+  output_root: "D:/CodeX/Triple-N/outputs"
+  figure_output_dir: "D:/CodeX/Triple-N/outputs/figures"
+  cache_dir: "D:/CodeX/Triple-N/outputs/cache"
+  log_dir: "D:/CodeX/Triple-N/outputs/logs"
+
+analysis:
+  reliability_threshold: 0.4
+  figure1_session: "ses01"
+  clustering_random_seed: 1009
+  clustering_k: 3
+  figure3_example_area_prefix: "AF3"
+  figure3_imagewise_area: "AF3"
+  figure3_imagewise_cluster: 2
+  figure3_preference_group_size: 50
+  basic_it_sessions_end: 70
+  basic_extra_it_sessions:
+    - 88
+  figure3_time_points_start: 1
+  figure3_time_points_stop: 300
+  figure3_rdm_step: 5
+  population_summary_image_limit: 1000
+  encoding_image_limit: 1000
+  encoding_time_bins: 350
+  encoding_cv_folds: 10
+
+runtime:
+  save_cache: true
+  save_figures: true
+  fail_on_missing_optional_resources: false
