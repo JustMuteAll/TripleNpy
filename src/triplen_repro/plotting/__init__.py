@@ -1,0 +1,15 @@
+from .figures import (
+    plot_area_anatomy,
+    plot_area_legend,
+    plot_area_similarity,
+    plot_basic_info,
+    plot_fig3_area_example,
+    plot_fig3_cluster_size,
+    plot_fig3_imagewise,
+    plot_fig3_mi_summary,
+    plot_fig3_preference_panel,
+    plot_fig3_summary,
+    plot_population_summary,
+    plot_session_illustration,
+    save_figure,
+)
